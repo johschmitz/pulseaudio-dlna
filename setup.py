@@ -54,7 +54,11 @@ setuptools.setup(
     'psutil',
     'pyroute2',
     'notify2',
-    'pychromecast>=7'    
+    'pychromecast>=7',
+    'vext',
+    'vext.gi',
+    'gobject',
+    'PyGObject',
     ],
     entry_points={
         "console_scripts": [
